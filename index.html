@@ -15,7 +15,7 @@
     <header class="main-header">
         <div class="container">
             <div class="logo">
-                <p class="logo_sitename">Black<span>and</span>White</p>
+                <h1 class="logo_sitename">Black<span>and</span>White</h1>
                 <p class="logo_tagline">Lorem ipsum dolor sit amet</p>
             </div>
             <div class="search">
@@ -32,155 +32,137 @@
     </div>
 
     <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Work</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
+        <div class="container">
+            <ul class="main-nav">
+                <li><a class="main-nav_link" href="#">Home</a></li>
+                <li><a class="main-nav_link" href="#">About</a></li>
+                <li><a class="main-nav_link" href="#">Work</a></li>
+                <li><a class="main-nav_link" href="#">Blog</a></li>
+                <li><a class="main-nav_link" href="#">Contact</a></li>
+            </ul>
+        </div>
     </nav>
 
-    <main>
+    <main class="main">
+        <div class="container">
 
-        <section>
-            <h2 class="what">What we do</h2>
-            <p class="p1">Lorem ipsum dolor sit amet consectetur <a href="#">iciis id, sit dolorum ullam und</a> adipisicing elit. Cumque officiis id, sit dolorum ullam unde pariatur nulla placeat quasi iusto eum ipsam quae odio non velit <b>aperiam perferendis earumlorum ullam und</b>                e pariatur nulla placeat quasi iusto eum ipsam quae odio non velit aperiam perferendis ea Ea.</p>
-            <p class="quote"> — Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
-        </section>
+            <section class="section desctiption">
+                <h2 class="section_header desctiption_header">What we do</h2>
+                <p class="desctiption_text">Lorem ipsum dolor sit amet,
+                    <a href="#">consectetur adipisicing elit</a>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <b>Excepteur sint occaecat</b> cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                <blockquote class="desctiption_quote"> — Duis aute irure dolor in reprehenderit in voluptate velit esse</blockquote>
+            </section>
 
-        <section class="section imgs">
+            <section class="section images">
+                <h3 class="section_header">Images</h3>
+                <div class="box">
+                    <img src="./assets/img1.png">
+                    <img src="./assets/img2.png">
+                    <img src="./assets/img3.png">
+                    <img src="./assets/img4.png">
+                </div>
+            </section>
 
-            <h2>Images</h2>
-            <img src="Layer 9.png">
-            <img src="Layer 10.png">
-            <img src="Layer 11.png">
-            <img src="Layer 12.png">
-        </section>
+            <section class="section lists">
+                <h2 class="section_header">Lists and Descriptions</h2>
+                <div class="box">
+                    <ul>
+                        <li>Sed ut perspiciatis unde omnis iste natus</li>
+                        <li>Lorem ipsum dolor sit amet, consectetur</li>
+                        <li>At vero eos et accusamus et iusto odio</li>
+                        <li>Et harum quidem rerum facilis est</li>
+                    </ul>
 
+                    <ol>
+                        <li>Sed ut perspiciatis unde omnis iste natus</li>
+                        <li>Lorem ipsum dolor sit amet, consectetur</li>
+                        <li>At vero eos et accusamus et iusto odio</li>
+                        <li>Et harum quidem rerum facilis est</li>
+                    </ol>
 
+                    <dl>
+                        <dt>Sed ut perspiciatis unde omnis iste natus</dt>
+                        <dd>Lorem ipsum dolor sit amet, consectetur</dd>
+                        <dt>At vero eos et accusamus et iusto odio</dt>
+                        <dd>Et harum quidem rerum facilis est</dd>
+                    </dl>
+                </div>
 
-        <h2>Lists and Descriptions</h2>
-        <section class="section List">
-            <div class="box">
-                <ul class="ul">
-                    <li>
-                        Sed ut perspiciatis unde omnis iste natus
-                    </li>
-                    <li>
-                        Lorem ipsum dolor sit amet, consectetur
+            </section>
 
-                    </li>
-                    <li>
-                        At vero eos et accusamus et Et harum quidem rerum facilis est
-                    </li>
-                </ul>
-            </div>
-            <div>
+            <h2>Table</h2>
+            <section class="section tables">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Lorem</th>
+                            <th>Sed ut perspiciatis unde</th>
+                            <th>Sed ut perspiciatis unde</th>
+                            <th>Sed ut perspiciatis unde</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>At vero eos et</td>
+                            <td>At vero eos et</td>
+                            <td>At vero eos et</td>
+                            <td>At vero eos et</td>
+                        </tr>
+                        <tr>
+                            <td>At vero eos et</td>
+                            <td>At vero eos et</td>
+                            <td>At vero eos et</td>
+                            <td>At vero eos et</td>
+                        </tr>
+                        <tr>
+                            <td>At vero eos et</td>
+                            <td>At vero eos et</td>
+                            <td>At vero eos et</td>
+                            <td>At vero eos et</td>
+                        </tr>
+                        <tr>
+                            <td>At vero eos et</td>
+                            <td>At vero eos et</td>
+                            <td>At vero eos et</td>
+                            <td>At vero eos et</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section class="forms">
+                <h2>Forms</h2>
 
-                <ul class="ul decimal">
-                    <li>
-                        Sed ut perspiciatis unde omnis iste natus
-                    </li>
-                    <li>
-                        Lorem ipsum dolor sit amet, consectetur
+                <p>Text:</p>
+                <input type="text" placeholder="Input text">
+                <p>Select:</p>
+                <select>
+                <option>option</option>
+                <option>option</option>
+                <option>option</option>
+                <option>option</option>
+                <option>option</option>
+            </select>
+                <div class="box_cb_rb">
+                    <input type="checkbox" id="cb" name="cb">
+                    <label for="cb">Sed ut perspiciatis unde omnis iste natus</label>
+                </div>
+                <div class="box_cb_rb">
+                    <input type="radio" name="rb" id="rb">
+                    <label for="rb">Lorem ipsum dolor sit amet, consectetur</label>
+                </div>
 
-                    </li>
-                    <li>
-                        At vero eos et accusamus et Et harum
-                    </li>
-                    <li>
-                        Sed ut perspiciatis unde omnis iste natus
-                    </li>
-                </ul>
-            </div>
-            <div>
-
-                <dl class="ul">
-                    <dt>Sed ut perspiciatis unde omni rspiciatis</dt>
-                    <dd>sum dolor sit amet,</dd>
-
-                    <dt> ut perspiciatis unde omnrspiciatis</dt>
-                    <dd>Sed ut perspiciatis unde omni</dd>
-
-                    <dt>sum dolor sit amet, rspiciatis</dt>
-                    <dd> ut perspiciatis unde omn</dd>
-                </dl>
-
-            </div>
-        </section>
-
-        <h2>Table</h2>
-        <section class="section tables">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Lorem</th>
-                        <th>Sed ut perspiciatis unde</th>
-                        <th>Sed ut perspiciatis unde</th>
-                        <th>Sed ut perspiciatis unde</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>At vero eos et</td>
-                        <td>At vero eos et</td>
-                        <td>At vero eos et</td>
-                        <td>At vero eos et</td>
-                    </tr>
-                    <tr>
-                        <td>At vero eos et</td>
-                        <td>At vero eos et</td>
-                        <td>At vero eos et</td>
-                        <td>At vero eos et</td>
-                    </tr>
-                    <tr>
-                        <td>At vero eos et</td>
-                        <td>At vero eos et</td>
-                        <td>At vero eos et</td>
-                        <td>At vero eos et</td>
-                    </tr>
-                    <tr>
-                        <td>At vero eos et</td>
-                        <td>At vero eos et</td>
-                        <td>At vero eos et</td>
-                        <td>At vero eos et</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-        <section class="forms">
-            <h2>Forms</h2>
-
-            <p>Text:</p>
-            <input type="text" placeholder="Input text">
-            <p>Select:</p>
-            <select>
-            <option>option</option>
-            <option>option</option>
-            <option>option</option>
-            <option>option</option>
-            <option>option</option>
-        </select>
-            <div class="box_cb_rb">
-                <input type="checkbox" id="cb" name="cb">
-                <label for="cb">Sed ut perspiciatis unde omnis iste natus</label>
-            </div>
-            <div class="box_cb_rb">
-                <input type="radio" name="rb" id="rb">
-                <label for="rb">Lorem ipsum dolor sit amet, consectetur</label>
-            </div>
-
-            <div class="text2">
-                <p>Textarea:</p>
-                <input type="text">
-            </div>
-            <div>
-                <a class="a" href="#">Button</a>
-            </div>
-        </section>
+                <div class="text2">
+                    <p>Textarea:</p>
+                    <input type="text">
+                </div>
+                <div>
+                    <a class="a" href="#">Button</a>
+                </div>
+            </section>
 
 
+        </div>
 
     </main>
 
