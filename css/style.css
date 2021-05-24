@@ -10,6 +10,8 @@
     box-sizing: border-box;
 }
 
+
+
 body {
     min-height: 100vh;
     background: url("./../assets/bg_body.png");
@@ -55,8 +57,6 @@ body {
     flex-wrap: wrap;
 }
 
-.logo {}
-
 .logo_sitename {
     font-size: 36px;
     font-family: "BirchStd";
@@ -77,8 +77,6 @@ body {
     letter-spacing: 0.3px;
     /* line-height: 1.667; */
 }
-
-.search {}
 
 .search_button {
     border: 1px solid #4c4c4c;
@@ -163,7 +161,6 @@ body {
     transition: 0.3s;
 }
 
-.main {}
 
 .main .container {
     background-color: #fff;
@@ -180,7 +177,7 @@ body {
     font-weight: bold;
     line-height: 0.667;
     color: #838383;
-    margin: 10px 0 7px;
+    margin: 10px 0 15px;
 }
 
 .section_header::first-letter {
@@ -251,27 +248,10 @@ body {
 }
 
 
-/* 
-dt {
-    font-weight: bold;
+.tables{
+    margin-top: 34px;
 }
-
-dd {
-    padding-left: 30px;
-} */
-
-table {
-    width: 964px;
-    height: 154px;
-    margin: 17px 21px 24px 15px;
-    background-color: #ffffff;
-    border: solid 1px #d5d5d5;
-    border-collapse: collapse;
-}
-
-thead tr th {
-    width: 150px;
-    height: 13px;
+.tables table{
     border: solid 1px #d5d5d5;
     font-family: Arial;
     font-size: 13px;
@@ -282,29 +262,29 @@ thead tr th {
     letter-spacing: normal;
     text-align: justify;
     color: #000000;
-    padding: 10px;
 }
 
-thead tr {
-    width: 962px;
-    height: 30px;
-    margin: 1px 1px 0;
-    padding: 10px 58px 7px 9px;
+.tables table thead tr{
     background-color: #efefef;
 }
-
-tbody tr td {
-    font-family: Arial;
-    font-size: 13px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.54;
-    letter-spacing: normal;
-    text-align: justify;
-    color: #000000;
+.tables table thead tr th{
+    font-weight: bold;
+}
+.tables table thead tr th,td{
+    padding: 10px 0 10px 10px;
     border: solid 1px #d5d5d5;
-    padding: 10px;
+
+}
+.tables table{
+    width: 964px;
+    height: 154px;
+    background-color: #ffffff;
+    border-spacing:0;
+}
+/* Сверху | Справа | Снизу | Слева */
+.forms{
+    margin: 24px, 0, 1110px, 10px;
+    height: 420px;
 }
 
 .forms input[type=text] {
@@ -315,11 +295,9 @@ tbody tr td {
     border: solid 1px #b7b7b7;
     background-color: #ffffff;
     color: #000;
-    margin: 0px 18px 15px 14px;
 }
 
-.forms p {
-    margin: 21px 8px 5px 14px;
+.forms .paragraph {
     font-family: Arial;
     font-size: 12px;
     font-weight: normal;
@@ -331,17 +309,15 @@ tbody tr td {
     color: #010101;
 }
 
-select {
+.forms .select {
     width: 224px;
     height: 30px;
-    margin: 0px 18px 20px 14px;
     padding: 7px 5px 5px 8px;
     border: solid 1px #b7b7b7;
     background-color: #ffffff;
 }
-
-input[type=checkbox] {
-    margin: 13px 5px 18px 7px;
+.forms input #rb,#cb{
+    margin-bottom: 15px;
     font-family: Arial;
     font-size: 13px;
     font-weight: normal;
@@ -351,58 +327,20 @@ input[type=checkbox] {
     letter-spacing: normal;
     text-align: justify;
     color: #000000;
+    margin-top: 22px;
 }
-
-input[type=radio] {
-    margin: 0px 5px 11px 6px;
-    font-family: Arial;
-    font-size: 13px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.54;
-    letter-spacing: normal;
-    text-align: justify;
-    color: #000000;
-}
-
-.box_cb_rb {
-    margin-left: 10px;
-}
-
-.text2 {
-    margin-bottom: 20px;
-}
-
-.text2 p {
-    width: 50px;
-    height: 9px;
-    margin: 18px 192px 5px 14px;
-    font-family: Arial;
-    font-size: 12px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.67;
-    letter-spacing: normal;
-    text-align: justify;
-    color: #010101;
-}
-
-.text2 input[type=text] {
+#input_text{
     width: 304px;
-    height: 124px;
-    margin: 5px 16px 15px 14px;
+    
     box-shadow: inset 0px 2px 3px 0 rgba(0, 0, 0, 0.15);
     border: solid 1px #b7b7b7;
     background-color: #ffffff;
-    color: #000;
+    margin-bottom: 34px;
+    padding-bottom: 110px;
+
 }
 
-.a {
-    width: 91px;
-    height: 35px;
-    margin: 0 0 0 14px;
+.a{
     padding: 13px 23px 12px 24px;
     border: solid 1px #000000;
     background-color: #202020;
