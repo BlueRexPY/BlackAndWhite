@@ -45,8 +45,7 @@
 
     <main class="main">
         <div class="container">
-
-            <section class="section desctiption">
+            <section class="section desctiption ">
                 <h2 class="section_header desctiption_header">What we do</h2>
                 <p class="desctiption_text">Lorem ipsum dolor sit amet,
                     <a href="#">consectetur adipisicing elit</a>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
@@ -91,8 +90,9 @@
 
             </section>
 
-            <h2>Table</h2>
+            
             <section class="section tables">
+                <h2 class="section_header">Table</h2>
                 <table>
                     <thead>
                         <tr>
@@ -130,38 +130,32 @@
                     </tbody>
                 </table>
             </section>
-            <section class="forms">
-                <h2>Forms</h2>
 
-                <p>Text:</p>
+            <section class="section forms">
+                <h2 class="section_header">Forms</h2>
+                <p class="paragraph">Text:</p>
                 <input type="text" placeholder="Input text">
-                <p>Select:</p>
-                <select>
-                <option>option</option>
-                <option>option</option>
-                <option>option</option>
-                <option>option</option>
-                <option>option</option>
-            </select>
-                <div class="box_cb_rb">
-                    <input type="checkbox" id="cb" name="cb">
-                    <label for="cb">Sed ut perspiciatis unde omnis iste natus</label>
-                </div>
-                <div class="box_cb_rb">
-                    <input type="radio" name="rb" id="rb">
-                    <label for="rb">Lorem ipsum dolor sit amet, consectetur</label>
-                </div>
+                <p class="paragraph">Select:</p>
+                <select class="select">
+                    <option>option</option>
+                    <option>option</option>
+                    <option>option</option>
+                    <option>option</option>
+                    <option>option</option>
+                </select>
+                <br>
+                <input type="checkbox" id="cb" name="cb">
+                <label for="cb">Sed ut perspiciatis unde omnis iste natus</label>
+                <br>
+                <input type="radio" name="rb" id="rb">
+                <label for="rb">Lorem ipsum dolor sit amet, consectetur</label>
+                <br>
+                <p class="paragraph">Textarea:</p>
+                <input id="input_text" type="text">
+                <br>
+                <a class="a" href="#">Button</a>
 
-                <div class="text2">
-                    <p>Textarea:</p>
-                    <input type="text">
-                </div>
-                <div>
-                    <a class="a" href="#">Button</a>
-                </div>
             </section>
-
-
         </div>
 
     </main>
