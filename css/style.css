@@ -253,13 +253,9 @@ body {
 }
 .tables table{
     border: solid 1px #d5d5d5;
-    font-family: Arial;
     font-size: 13px;
     font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
     line-height: 1.54;
-    letter-spacing: normal;
     text-align: justify;
     color: #000000;
 }
@@ -281,9 +277,9 @@ body {
     background-color: #ffffff;
     border-spacing:0;
 }
-/* Сверху | Справа | Снизу | Слева */
+
 .forms{
-    margin: 24px, 0, 1110px, 10px;
+    margin: 24px 0 40px 10px;
     height: 420px;
 }
 
@@ -298,13 +294,8 @@ body {
 }
 
 .forms .paragraph {
-    font-family: Arial;
     font-size: 12px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
     line-height: 1.67;
-    letter-spacing: normal;
     text-align: justify;
     color: #010101;
 }
@@ -318,20 +309,14 @@ body {
 }
 .forms input #rb,#cb{
     margin-bottom: 15px;
-    font-family: Arial;
     font-size: 13px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
     line-height: 1.54;
-    letter-spacing: normal;
     text-align: justify;
     color: #000000;
     margin-top: 22px;
 }
 #input_text{
     width: 304px;
-    
     box-shadow: inset 0px 2px 3px 0 rgba(0, 0, 0, 0.15);
     border: solid 1px #b7b7b7;
     background-color: #ffffff;
@@ -344,13 +329,9 @@ body {
     padding: 13px 23px 12px 24px;
     border: solid 1px #000000;
     background-color: #202020;
-    font-family: Arial;
     font-size: 14px;
     font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
     line-height: 1.43;
-    letter-spacing: normal;
     text-align: justify;
     color: #ffffff;
     text-decoration: none;
